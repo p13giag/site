@@ -11,6 +11,8 @@ events:
   - magic-cap
   - apple-newton
   - ipod_1g
+  - ipod_2g
+  - ipod_3g
   - olpc-classroom
   - apple-iphone
   - wearable

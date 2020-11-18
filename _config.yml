@@ -9,87 +9,85 @@ theme: minimal-mistakes-jekyll
 # remote_theme: "mmistakes/minimal-mistakes"
 
 # Site Settings
-locale                   : "gr-GR"
-title                    : "Ο Προγραμματισμός της Διάδρασης"
-title_separator          : "-"
-name                     : "pibook"
-description              : "Programming Interactivity Greek Book."
-url                      : "https://pibook.epidro.me"
-baseurl                  : ""
-repository               : "epidrome/pibook"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+locale: "gr-GR"
+title: "Ο Προγραμματισμός της Διάδρασης"
+title_separator: "-"
+name: "pibook"
+description: "Programming Interactivity Greek Book."
+url: "https://p13giag.netlify.app/"
+baseurl: ""
+repository: "epidrome/pibook"
+teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+words_per_minute: 200
 
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey:
+  secret:
 atom_feed:
-  path                   : # blank (default) uses feed.xml
-search                   : true
-search_full_content      : true
-search_provider          : # lunr (default), algolia
+  path: # blank (default) uses feed.xml
+search: true
+search_full_content: true
+search_provider: # lunr (default), algolia
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  application_id: # YOUR_APPLICATION_ID
+  index_name: # YOUR_INDEX_NAME
+  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: # true (default), false
 
 # SEO Related
-google_site_verification :
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
+google_site_verification:
+bing_site_verification:
+yandex_site_verification:
+naver_site_verification:
 
 # Social Sharing
 twitter:
-  username               :
+  username:
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
+  username:
+  app_id:
+  publisher:
+og_image: # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type: # Person or Organization (defaults to Person)
+  name: # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-
 
 # Site Author
 author:
-  name             : "Konstantinos Chorianopoulos"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              :
-  location         :
-  email            :
-  uri              :
-  home             : "https://www.epidro.me"
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "epidrome"
-  gitlab           :
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
-  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          : "https://www.youtube.com/channel/UCXRT71xdiJVlbgMpeMvUZ3g"
-
+  name: "Konstantinos Chorianopoulos"
+  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio:
+  location:
+  email:
+  uri:
+  home: "https://www.epidro.me"
+  bitbucket:
+  codepen:
+  dribbble:
+  flickr:
+  facebook:
+  foursquare:
+  github: "epidrome"
+  gitlab:
+  google_plus:
+  keybase:
+  instagram:
+  lastfm:
+  linkedin: # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  pinterest:
+  soundcloud:
+  stackoverflow: # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  steam: # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
+  tumblr:
+  twitter:
+  vine:
+  weibo:
+  xing:
+  youtube: "https://www.youtube.com/channel/UCXRT71xdiJVlbgMpeMvUZ3g"
 
 # Reading Files
 include:
@@ -127,14 +125,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -147,19 +143,16 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
 
 # Outputting
 #permalink: /:categories/:title/
 #paginate: 5 # amount of posts to show
 #paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins (previously gems:)
 plugins:
@@ -173,7 +166,6 @@ plugins:
   - jekyll-remote-theme
   - jekyll-scholar
 
-
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
@@ -185,10 +177,10 @@ plugins:
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: liquid 
+  type: liquid
   path: /categories/
 tag_archive:
-  type: liquid 
+  type: liquid
   path: /tags/
 
 # HTML Compression
@@ -256,15 +248,15 @@ defaults:
       related: true
   - scope:
       path: ""
-      type: chapter 
+      type: chapter
     values:
-      layout: single 
+      layout: single
       header: no
   - scope:
       path: ""
-      type: timeline 
+      type: timeline
     values:
-      layout: timeline 
+      layout: timeline
       header: no
       show_meta: false
   - scope:
@@ -276,9 +268,9 @@ defaults:
       show_meta: false
   - scope:
       path: ""
-      type: gallery 
+      type: gallery
     values:
-      layout: image 
+      layout: image
       header: no
       show_meta: false
   - scope:
@@ -313,7 +305,7 @@ defaults:
       path: ""
       type: tag
     values:
-      comments: false 
+      comments: false
   - scope:
       path: ""
       type: category

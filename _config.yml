@@ -14,9 +14,9 @@ title                    : "Ο Προγραμματισμός της Διάδρ�
 title_separator          : "-"
 name                     : "pibook"
 description              : "Programming Interactivity Greek Book."
-url                      : "https://pibook.epidro.me"
+url                      : "https://p13giag.netlify.app/"
 baseurl                  : ""
-repository               : "epidrome/pibook"
+repository               : "p13giag/site"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -59,20 +59,20 @@ social:
 
 # Site Author
 author:
-  name             : "Konstantinos Chorianopoulos"
+  name             : "Alexandros Giagtzoglou"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              :
   location         :
   email            :
   uri              :
-  home             : "https://www.epidro.me"
+  home             : "https://p13giag.netlify.app/"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "epidrome"
+  github           : "p13giag"
   gitlab           :
   google_plus      :
   keybase          :

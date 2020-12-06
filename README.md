@@ -17,4 +17,5 @@ You can go a long way just by adding/editing files with the Github web interface
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ad198af0-e446-41a9-9c8d-7f287d9e699c/deploy-status)](https://app.netlify.com/sites/p2013125p13giag/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e62b48c3-7802-422d-80e0-93105b52bc4a/deploy-status)](https://app.netlify.com/sites/p13giag/deploys)
+
